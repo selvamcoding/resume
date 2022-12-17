@@ -4,10 +4,18 @@ repository: selvamcoding/resume
 version: 2
 
 # Personal info
-name: Selvam Mariappan
+name: Selvam
 title: Staff Software Engineer
 email: selvamgce@yahoo.com
 
 # Social links
 github_username:  selvamcoding
 linkedin_username: selvam-mariappan
+
+#defaults:
+#  -
+#    scope:
+#      path: ""
+#    values:
+#      layout: "default"
+#
