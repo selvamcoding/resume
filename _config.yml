@@ -1,13 +1,226 @@
 # Site
 repository: selvamcoding/resume
+favicon: images/cv-icon-4.png
 
+# Content configuration version
 version: 2
 
 # Personal info
-name: Selvam Mariappan
-title: Staff Software Engineer
+name: Selvam
+title: Staff Software Engineer, Walmart
 email: selvamgce@yahoo.com
+phone: +91 8122362238
+# website: Your website (eg. https://google.com)(optional)
+
+# Dark Mode (true/false/never)
+darkmode: false
 
 # Social links
 github_username:  selvamcoding
 linkedin_username: selvam-mariappan
+
+# Additional icon links
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#  url: Link url (eg. https://google.com)
+
+# About Section
+about_title: About Me 
+about_profile_image: images/selvam_profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name is Selvam, I am a DevOps and SRE Engineer with over 10 years experience. 
+  Currently working on Designing, Writing Automations, Installation Setup, Deployments and Supporting Operations of Cloud-Native and Cloud-Based BigData Applications. 
+  I am currently working for Walmart as Staff Software Engineer on DataPlatform.  
+  <br>
+  
+  ## Technical Skills      
+  **Operating Systems :** `CentOS, Debian and Ubuntu`  
+  **Scripting Languages :** `Shell Script and Python`  
+  **Programming :** `Java and SpringBoot`  
+  **Database :** `MySQL and MariaDB`  
+  **Web Servers :** `Apache, Nginx and Tomcat`  
+  **CI Tool :** `Jenkins, Nexus and Artifactory`  
+  **VCS :** `SVN, Git, GitLab and GitHub`  
+  **Monitoring Alert Tools :** `Nagios, Check_mk, Collectd, ElastAlert, Telegraf, InfluxDB, Prometheus and Grafana`  
+  **IaC & CMS :** `Terraform, Ansible and Puppet`  
+  **Log Management Tools :** `Logstash, Elasticsearch, Kibana, Fluent-bit and Splunk`  
+  **Load Balancing :** `HAProxy and KeepAlived`  
+  **Virtualization & Cloud :** `Citrix, VMWare, AWS(EC2, Route 53, S3, IAM, RDS) and GCP`   
+  **Container Orchestration :** `Docker, Kubernetes and GKE`  
+  **Networking :** `IPv4 and IPv6`  
+  **Bigdata :** `Elasticsearch, Cassandra, RabbitMQ, Redis, Kafka, Airflow and Hadoop Hortonworks`  
+  **Storage :** `GlusterFS`  
+  **Others :** `LDAP, Supervisord, Gerrit, Redmine and Jira`  
+
+content:
+  - title: Professional Summary
+    layout: text
+    content: | 
+        - 10+ years of experience in Linux System Administration, Cloud Operations, DevOps and Bigdata.
+        - Experience in Architecting, Design and Supporting Highly Available and Highly Scalable Infrastructure.
+        - Maintaining Production Servers in 24x7 environments.
+        - Good knowledge of Virtualization, Cloud and Cloud-Native technologies.
+        - Implementing BCDR and SOX Compliance on Infra, Applications and Services
+        - Installing and configuring Open-Source tools to facilitate production support and maintenance.
+        - Good Knowledge of application services configuration and performance tuning.
+        - Writing scripts/applications to automate cloud operations, deployment and provide backend feedback to engineering on bugs/issues/feature enhancements.
+        - Writing Automation to build infra in public cloud, playbook for software installation and configuration and monitoring setup.
+        - Hardworking and willing to take on new responsibilities.
+        - Ability to manage and prioritize tasks and time effectively.
+        - Good interpersonal skills, energetic and motivated team player.
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: Walmart Global Tech India
+        sub_title: Staff Software Engineer
+        caption: APR 2019 - present
+        link: https://www.walmart.com/
+        quote: >
+          Walmart Inc. is an American multinational retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores from the United States.
+        description: | 
+          - Administrating Automic Enterprise scheduler for process automation and ETL Data pipeline Jobs scheduling.
+          - Building the Airflow Container custom images, deploying and administrating in K8s cluster.
+          - Writing Automation to Setup K8s Cluster and upgradation and Autoscaling K8s Worker nodes.
+          - Writing Dockerfile for microservices runs on Kubernetes cluster
+          - Writing Automations for K8s Deployment, ConfigMap and DaemonSet to deploy on Kubernetes cluster
+          - Writing the Terraform code and Ansible playbook to build infra to run applications in public cloud.
+          - Developing CI Jobs to build applications, container images and troubleshooting build issues.
+          - Creating CI/CD Automation for releases, tagging and deployment of Application services.
+          - Creating and implementing application metrics and logging monitoring i.e Prometheus, Fluent-bit, Logstash and Splunk
+          - Creating BC DR Tier1(RPO 30 mins and RTO 1 hour) Infra Setup for applications
+          - Troubleshooting and Debugging Airflow services, applications, and its performances
+          - Setting up GlusterFS storage with Geo-Replication for BCDR and increasing storage capacity based on demand
+          - Implementing MTTD for infra, application and its dependency services
+          - Creating fluent-bit config, writing Lua script for adding new fields in logs and creating regex parser for applications logs patterns.
+          - Enabling Autoscaling through GCP Managed Instance Group for applications traffic.
+          - Worked on Datacenter Migrations
+          - Writing scripts for archive and cleanup applications data
+          - Creating Xmatters group and integrating services alert with Xmatters
+          - Developing and promoting standard operating procedures and creating processes and tooling for operation efficiency
+          - Implementing SOX compliance on Infra, services and applications
+      - layout: left
+        border: weak
+        title: Verse Innovation Pvt Ltd
+        sub_title: Lead Engineer – Technical Operations
+        caption: MAR 2017 - MAR 2019
+        link: https://www.dailyhunt.in
+        quote: >
+          VerSe Innovation's proprietary technology platform powers 350 million + users to consume content in their local language on Dailyhunt.
+        description: |
+          - Integrating Jenkins jobs and Ansible playbook to automate releases.
+          - Writing Ansible playbook for Application installation, Cloud Operation and System hygiene checks.
+          - Streamlining Supervisord Installation and writing INI file for program autostarts.
+          - Troubleshooting Java heap size issue and deadlocks.
+          - Writing Python automation to collect infra statistics like LB rule traffic, Vcenter Esxi and Vms CPU, Memory Data Metrics for analysis.
+          - Installing Hadoop Hortonworks Setup.
+          - Writing Python script to collect Redis info and commandstats details at frequent interval and push metrics to influxdb for monitoring.
+          - Written automation to fetch Elasticsearch cluster stats for monitoring.
+          - Troubleshooting client issues and fine-tuning application server parameters.
+          - Writing Python Script to validate Application health and its backend health.
+          - Optimizing Vmware Instances CPU and Memory Ratio based on its Usage analysis.
+          - Migrating Data storages.
+          - Setting up DevOps Automation Cycle like Code fix and push(Git), Continuous Integrations(Jenkins), Code Review(Gerrit) and Deployment.
+          - Creating Jira Projects and Customizing screens for issue types.
+          - Writing Automation tools to find out root causes of nagios/check_mk service alerts.
+          - Creating Grafana dashboards and alerts for monitoring data metrics.
+          - Writing custom health check scripts to monitor services.
+          - Creating VMs, Adding storage, Network and DRS rules in Vmware.
+          - Configuring Public and Local DNS for web applications.
+      - layout: left
+        border: weak
+        title: PromptCloud
+        sub_title: Senior Software Engineer
+        caption: Jan 2016 - Feb 2017
+        link: https://www.promptcloud.com/
+        quote: >
+          PromptCloud is a leading web scraping services provider company for enterprises, meeting data requirements with customized crawling
+        description: |
+          - Creating RPM and DEB packages for Installation and Patch Deployment.
+          - Installing and configuring local repo (createrepo, reprepro and aptly) for RPM and DEB package management.
+          - Configuring SMTP mail server and SPF and DKIM DNS records.
+          - Provisioning new machine with minimal softwares, monitoring tools and user package.
+          - Troubleshooting Server load issues and finding root causes.
+          - Configuring LDAP setup with replication.
+          - Fixing ssl security issues in Web application servers.
+          - Installing and Configuring VSFTPD server for data file upload.
+          - Troubleshooting Elasticsearch issues and increasing indexing performance on ELK setup.
+          - Creating Kibana Visualizations and Dashboards to analyze Elasticsearch data.
+          - Creating Alerts (ElastAlert) for Elasticsearch uploaded data.
+          - Configuring Jobs and troubleshooting the builds failed cases in Jenkins.
+          - Installing and configuring the forum to engineering team for technical discussions.
+          - Install and Configure Ansible and writing the playbook to automated deployment.
+          - Managing High Availability servers in HAProxy.
+          - Creating AWS AMI, DNS records in Route 53, Creating user with limited access in IAM and Configuring Security Access.
+          - Build, Configure and provision public cloud infrastructure for application using AWS services.
+          - Implementing best practices to ensure for an always-up, always-available service.
+      - layout: left
+        title: BroadSoft Technologies Pvt Ltd
+        sub_title: Software Engineer
+        caption: May 2012 - Jan 2016
+        link: https://www.promptcloud.com/
+        quote: >
+          BroadSoft, Inc. is a communication software and service provider that was acquired by Cisco Systems in 2018.
+          The company provides technology for service providers to build cloud-based communications services such as voice, video, web conferencing and team messaging and contextual services
+        description: |
+          - OS Installation, migration, upgrades and improving performance of the systems.
+          - Configuring file system partition, users and file permissions and fstab entries.
+          - Installation of applications software, Configuring and diagnosing them remotely.
+          - Administrating server and service status and performance.
+          - Deployment of Software and application upgrade in production with minimum downtime.
+          - Tuning Apache, Nginx, Tomcat and MySQL Performance.
+          - Involved in the R&D work in open-source tool feeding.
+          - Designing Operations user guide to provide troubleshoot methods for the customer.
+          - Analyzing bottlenecks on applications and provides the feedback details to the development team to 
+            diagnose further.
+          - Developing web interfaces for dev and QA team to get Production Server data Statistics.
+          - Optimize Inode usage and file system blocks usage.
+          - Writing scripts to automate regular production operations event.
+          - Puppet server and client installation and develop puppet classes to deploy the packages.
+          - Installing and Configuring Logstash, Elasticsearch and Kibana to analyze servers and application logs.
+          - Configuring Logwatch and Analyzing logwatch daily report.
+          - Nagios installation and configuration to monitor system alerts.
+          - Backup management, Reporting and Recovery.
+          - Optimize NFS performance on production server.
+          - Setting up & administering build server SVN and Jenkins.
+          - Configuring, and Maintaining Production Environment in local QA and DEV Servers.
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Government College of Engineering, Salem
+        sub_title: B.E Computer Science
+        caption: 2008 - 2012
+  - title: Interests
+    layout: text
+    content: |
+      I love and enjoy travelling, driving and exploring places and food.  
+      Recently I am interested in stock market, exploring stocks, understanding it's business and writing automation to 
+      do valuations :) etc.  
+      I am interested in reading books, blogs and articles and updating me on in new technologies.  
+
+
+# Footer
+footer_show_references: false
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
