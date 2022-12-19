@@ -30,12 +30,12 @@ about_title: About Me
 about_profile_image: images/selvam_profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Selvam, I am a DevOps and SRE Engineer with over 10 years experience. 
-  Currently working on Designing, Writing Automation, Installation Setup, Deployment and Supporting Operations of 
+  Currently working on Designing, Writing Automations, Installation Setup, Deployments and Supporting Operations of 
   Cloud-Native and Cloud-Based BigData Applications. 
-  I am currently working for Walmart as Staff Software Engineer on DataPlatform.<br>
+  I am currently working for Walmart as Staff Software Engineer on DataPlatform.  
   <br>
   
-  ## TECHNICAL SKILLS<br>    
+  ## Technical Skills      
   **Operating Systems :** `CentOS, Debian and Ubuntu`  
   **Scripting Languages :** `Shell Script and Python`  
   **Programming :** `Java and SpringBoot`  
@@ -55,7 +55,7 @@ about_content: | # this will include new lines to allow paragraphs
   **Others :** `LDAP, Supervisord, Gerrit, Redmine and Jira`  
 
 content:
-  - title: PROFESSOINAL SUMMARY
+  - title: Professional Summary
     layout: text
     content: | 
         - 10+ years of experience in Linux System Administration, Cloud Operations, DevOps and Bigdata.
@@ -118,11 +118,12 @@ content:
           local language on Dailyhunt.
         description: |
           - Integrating Jenkins jobs and Ansible playbook to automate releases.
-          - Writing Ansible playbook for Application installation, Cloud Operation and system hygiene checks.
+          - Writing Ansible playbook for Application installation, Cloud Operation and System hygiene checks.
           - Streamlining Supervisord Installation and writing INI file for program autostarts.
           - Troubleshooting Java heap size issue and deadlocks.
           - Writing Python automation to collect infra statistics like LB rule traffic, Vcenter Esxi and 
-            Vms CPU, Memory Data Metrics for analysis.▪ Installing Hadoop Hortonworks Setup.
+            Vms CPU, Memory Data Metrics for analysis.
+          - Installing Hadoop Hortonworks Setup.
           - Writing Python script to collect Redis info and commandstats details at frequent interval and push metrics 
             to influxdb for monitoring.
           - Written automation to fetch Elasticsearch cluster stats for monitoring.
