@@ -59,7 +59,7 @@ content:
     layout: text
     content: | 
         - 10+ years of experience in Linux System Administration, Cloud Operations, DevOps and Bigdata.
-        - Experience in architecting, design and supporting highly available and highly scalable infrastructure.
+        - Experience in Architecting, Design and Supporting Highly Available and Highly Scalable Infrastructure.
         - Maintaining Production Servers in 24x7 environments.
         - Good knowledge of Virtualization, Cloud and Cloud-Native technologies.
         - Implementing BCDR and SOX Compliance on Infra, Applications and Services
@@ -68,7 +68,7 @@ content:
         - Writing scripts/applications to automate cloud operations, deployment and provide backend feedback to 
           engineering on bugs/issues/feature enhancements.
         - Writing Automation to build infra in public cloud, playbook for software installation and configuration and 
-          Monitoring setup.
+          monitoring setup.
         - Hardworking and willing to take on new responsibilities.
         - Ability to manage and prioritize tasks and time effectively.
         - Good interpersonal skills, energetic and motivated team player.
@@ -90,7 +90,7 @@ content:
           - Writing Automation to Setup K8s Cluster and upgradation and Autoscaling K8s Worker nodes.
           - Writing Dockerfile for microservices runs on Kubernetes cluster
           - Writing Automations for K8s Deployment, ConfigMap and DaemonSet to deploy on Kubernetes cluster
-          - Writing the terraform code and ansible playbook to build infra to run applications in public cloud.
+          - Writing the Terraform code and Ansible playbook to build infra to run applications in public cloud.
           - Developing CI Jobs to build applications, container images and troubleshooting build issues.
           - Creating CI/CD Automation for releases, tagging and deployment of Application services.
           - Creating and implementing application metrics and logging monitoring i.e Prometheus, Fluent-bit, Logstash 
