@@ -30,8 +30,7 @@ about_title: About Me
 about_profile_image: images/selvam_profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Selvam, I am a DevOps and SRE Engineer with over 10 years experience. 
-  Currently working on Designing, Writing Automations, Installation Setup, Deployments and Supporting Operations of 
-  Cloud-Native and Cloud-Based BigData Applications. 
+  Currently working on Designing, Writing Automations, Installation Setup, Deployments and Supporting Operations of Cloud-Native and Cloud-Based BigData Applications. 
   I am currently working for Walmart as Staff Software Engineer on DataPlatform.  
   <br>
   
@@ -65,10 +64,8 @@ content:
         - Implementing BCDR and SOX Compliance on Infra, Applications and Services
         - Installing and configuring Open-Source tools to facilitate production support and maintenance.
         - Good Knowledge of application services configuration and performance tuning.
-        - Writing scripts/applications to automate cloud operations, deployment and provide backend feedback to 
-          engineering on bugs/issues/feature enhancements.
-        - Writing Automation to build infra in public cloud, playbook for software installation and configuration and 
-          monitoring setup.
+        - Writing scripts/applications to automate cloud operations, deployment and provide backend feedback to engineering on bugs/issues/feature enhancements.
+        - Writing Automation to build infra in public cloud, playbook for software installation and configuration and monitoring setup.
         - Hardworking and willing to take on new responsibilities.
         - Ability to manage and prioritize tasks and time effectively.
         - Good interpersonal skills, energetic and motivated team player.
@@ -77,13 +74,12 @@ content:
     content:
       - layout: left
         border: weak
-        title: Walmart Labs - India
+        title: Walmart Global Tech India
         sub_title: Staff Software Engineer
         caption: APR 2019 - present
         link: https://www.walmart.com/
         quote: >
-          Walmart Inc. is an American multinational retail corporation that operates a chain of hypermarkets, 
-          discount department stores, and grocery stores from the United States.
+          Walmart Inc. is an American multinational retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores from the United States.
         description: | 
           - Administrating Automic Enterprise scheduler for process automation and ETL Data pipeline Jobs scheduling.
           - Building the Airflow Container custom images, deploying and administrating in K8s cluster.
@@ -93,14 +89,12 @@ content:
           - Writing the Terraform code and Ansible playbook to build infra to run applications in public cloud.
           - Developing CI Jobs to build applications, container images and troubleshooting build issues.
           - Creating CI/CD Automation for releases, tagging and deployment of Application services.
-          - Creating and implementing application metrics and logging monitoring i.e Prometheus, Fluent-bit, Logstash 
-            and Splunk
+          - Creating and implementing application metrics and logging monitoring i.e Prometheus, Fluent-bit, Logstash and Splunk
           - Creating BC DR Tier1(RPO 30 mins and RTO 1 hour) Infra Setup for applications
           - Troubleshooting and Debugging Airflow services, applications, and its performances
           - Setting up GlusterFS storage with Geo-Replication for BCDR and increasing storage capacity based on demand
           - Implementing MTTD for infra, application and its dependency services
-          - Creating fluent-bit config, writing Lua script for adding new fields in logs and creating regex parser for 
-            applications logs patterns.
+          - Creating fluent-bit config, writing Lua script for adding new fields in logs and creating regex parser for applications logs patterns.
           - Enabling Autoscaling through GCP Managed Instance Group for applications traffic.
           - Worked on Datacenter Migrations
           - Writing scripts for archive and cleanup applications data
@@ -114,25 +108,21 @@ content:
         caption: MAR 2017 - MAR 2019
         link: https://www.dailyhunt.in
         quote: >
-          VerSe Innovation's proprietary technology platform powers 350 million + users to consume content in their 
-          local language on Dailyhunt.
+          VerSe Innovation's proprietary technology platform powers 350 million + users to consume content in their local language on Dailyhunt.
         description: |
           - Integrating Jenkins jobs and Ansible playbook to automate releases.
           - Writing Ansible playbook for Application installation, Cloud Operation and System hygiene checks.
           - Streamlining Supervisord Installation and writing INI file for program autostarts.
           - Troubleshooting Java heap size issue and deadlocks.
-          - Writing Python automation to collect infra statistics like LB rule traffic, Vcenter Esxi and 
-            Vms CPU, Memory Data Metrics for analysis.
+          - Writing Python automation to collect infra statistics like LB rule traffic, Vcenter Esxi and Vms CPU, Memory Data Metrics for analysis.
           - Installing Hadoop Hortonworks Setup.
-          - Writing Python script to collect Redis info and commandstats details at frequent interval and push metrics 
-            to influxdb for monitoring.
+          - Writing Python script to collect Redis info and commandstats details at frequent interval and push metrics to influxdb for monitoring.
           - Written automation to fetch Elasticsearch cluster stats for monitoring.
           - Troubleshooting client issues and fine-tuning application server parameters.
           - Writing Python Script to validate Application health and its backend health.
           - Optimizing Vmware Instances CPU and Memory Ratio based on its Usage analysis.
           - Migrating Data storages.
-          - Setting up DevOps Automation Cycle like Code fix and push(Git), Continuous Integrations(Jenkins), 
-            Code Review(Gerrit) and Deployment.
+          - Setting up DevOps Automation Cycle like Code fix and push(Git), Continuous Integrations(Jenkins), Code Review(Gerrit) and Deployment.
           - Creating Jira Projects and Customizing screens for issue types.
           - Writing Automation tools to find out root causes of nagios/check_mk service alerts.
           - Creating Grafana dashboards and alerts for monitoring data metrics.
@@ -146,8 +136,7 @@ content:
         caption: Jan 2016 - Feb 2017
         link: https://www.promptcloud.com/
         quote: >
-          PromptCloud is a leading web scraping services provider company for enterprises, meeting data requirements 
-          with customized crawling
+          PromptCloud is a leading web scraping services provider company for enterprises, meeting data requirements with customized crawling
         description: |
           - Creating RPM and DEB packages for Installation and Patch Deployment.
           - Installing and configuring local repo (createrepo, reprepro and aptly) for RPM and DEB package management.
@@ -164,8 +153,7 @@ content:
           - Installing and configuring the forum to engineering team for technical discussions.
           - Install and Configure Ansible and writing the playbook to automated deployment.
           - Managing High Availability servers in HAProxy.
-          - Creating AWS AMI, DNS records in Route 53, Creating user with limited access in IAM and Configuring 
-            Security Access.
+          - Creating AWS AMI, DNS records in Route 53, Creating user with limited access in IAM and Configuring Security Access.
           - Build, Configure and provision public cloud infrastructure for application using AWS services.
           - Implementing best practices to ensure for an always-up, always-available service.
       - layout: left
@@ -175,8 +163,7 @@ content:
         link: https://www.promptcloud.com/
         quote: >
           BroadSoft, Inc. is a communication software and service provider that was acquired by Cisco Systems in 2018.
-          The company provides technology for service providers to build cloud-based communications services such 
-          as voice, video, web conferencing and team messaging and contextual services
+          The company provides technology for service providers to build cloud-based communications services such as voice, video, web conferencing and team messaging and contextual services
         description: |
           - OS Installation, migration, upgrades and improving performance of the systems.
           - Configuring file system partition, users and file permissions and fstab entries.
